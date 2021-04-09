@@ -5,7 +5,7 @@ fun main()
     var a= person("Debayan","Ghosh",19) //passing user defined parameters
     a.stateHobby()
     var c=person()
-    c.hobby="BigChudap"
+    c.hobby="Gaming"
     c.stateHobby()
     var d=person("Anshu","Pandey",20)
     d.test()
@@ -15,7 +15,7 @@ fun main()
 class person(first: String="Aryan", last: String="Pandey") //This is also called primary constructor
 {
     var age:Int?=null
-    var hobby:String="Chudap"
+    var hobby:String="Esports"
     init {
         println("First Name: $first \n Last name: $last \n Age: $age")
     }
